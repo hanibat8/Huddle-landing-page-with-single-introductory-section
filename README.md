@@ -1,3 +1,5 @@
+URL - https://lambent-starlight-3179e7.netlify.app/
+
 # Frontend Mentor - Huddle landing page with single introductory section
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
