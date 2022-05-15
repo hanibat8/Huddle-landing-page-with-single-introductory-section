@@ -1,0 +1,140 @@
+*, html {
+    margin:0;
+    padding:0;  
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #740DC4;
+    color:#FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+    margin-top: 1em;
+    padding:1em 0; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding:1.5em 0; 
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first{
+    margin: 0;
+background-image: url(../images/bg-mobile.svg);
+background-repeat: no-repeat;
+}
+
+.btn:link, .btn:visited{
+    margin-top: 1em;
+    background-color:#fff;
+    color:rgb(2, 2, 2);
+    padding:0.6em 5em;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.2);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.2);
+}
+
+
+.logo{
+    width: 150px;
+}
+
+.register{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.register h2{
+    margin-bottom: 1em;
+ }
+
+.social-media{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    display: inline-block;
+    padding: 0 0.2em;
+}
+
+.social-media img{
+    width:30px;
+}
+
+.attribution { 
+    margin-top: 1em;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color:#fff; 
+}
+
+@media(min-width:800px){
+    
+    body{
+        background-image: url(../images/bg-desktop.svg);  
+        background-repeat: no-repeat;
+    }
+
+    main{
+        margin-top: 2em;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .logo{
+        width: 250px;
+    }
+    .first{
+        background-image:none;
+    }
+
+    .picture{
+        width: 45%;
+    }
+    .register{
+        width: 45%;
+        text-align: start;
+    }
+
+    .social-media{
+        margin-top: 3em;
+        justify-content:flex-end;
+    }
+}
